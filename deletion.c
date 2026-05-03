@@ -18,7 +18,7 @@ int main()
     printf("Enter Which index you want to delete: ");
     scanf("%d",&idx);
 
-    for(int i=idx;i<n;i++)
+    for(int i=idx;i<n-1;i++)
     {
         arr[i] = arr[i+1];
     }
